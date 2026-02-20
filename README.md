@@ -1,4 +1,8 @@
-# Sushi Catering Management System
+# A-Unique-Operation
+
+Sushi catering operation automation.
+
+## Sushi Catering Management System
 
 Centralized recipe management for sushi, poke bowls, and event prep. Uses a local SQLite database, optional AI (Google Gemini) for updates and quantity refinements, and a **Discord bot** for daily staff commands.
 
