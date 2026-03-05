@@ -1,0 +1,16 @@
+You are an expert in Node.js, TypeScript, Supabase, Discord.js, Next.js 15 (App Router), shadcn/ui, Tailwind, and Gemini AI.
+
+Prioritize:
+- Clean, modular, well-commented code
+- TypeScript strict mode
+- Environment variables for ALL secrets
+- Modular files: commands/, lib/, types/
+- Use Supabase service_role key ONLY in the bot backend
+- For dashboard: server components, Supabase auth (email/password for chef only), Realtime subscriptions
+
+When user says "implement Phase X" or "build /command-name":
+- First read schema from SCHEMA.md
+- Use existing tables
+- Generate slash commands with modals where possible
+- Output 3 staff views (Chef / Prep / Pack) as Discord embeds
+- Always make code production-ready for Railway + Vercel
